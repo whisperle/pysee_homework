@@ -1,0 +1,36 @@
+
+Refrigeration Cycle: The Ideal VCR Example 7.2-4 (Time: 2021/05/19 19:27:32 by leche on my-pcpc
+)
+             Compression Work(kW):   2.50
+      Refrigeration Capacity(ton):   3.25
+   The coefficient of performance:   4.58
+
+Index  	P(MPa)   	   T(°C) 	  H(kJ/kg) 	S(kJ/kg.K) 	 Quality   	MDOT(kg/s)
+  0   	    0.9	   41.47	    423.89	   1.733	          	    0.08
+  1   	    0.9	   35.53	    249.78	   1.169	    0.0000	    0.08
+  2   	 0.2006	  -10.00	    249.78	   1.190	    0.3063	    0.08
+  3   	 0.2006	  -10.00	    392.66	   1.733	    1.0000	    0.08
+
+Compressor
+ PORTS Index  	P(MPa)   	   T(°C) 	  H(kJ/kg) 	S(kJ/kg.K) 	 Quality   	MDOT(kg/s)
+ iPort   3   	 0.2006	  -10.00	    392.66	   1.733	    1.0000	    0.08
+ oPort   0   	    0.9	   41.47	    423.89	   1.733	          	    0.08
+The compressor efficiency(%): 	100.00
+Wc(kW): 	2.50
+
+Condenser
+ PORTS Index  	P(MPa)   	   T(°C) 	  H(kJ/kg) 	S(kJ/kg.K) 	 Quality   	MDOT(kg/s)
+ iPort   0   	    0.9	   41.47	    423.89	   1.733	          	    0.08
+ oPort   1   	    0.9	   35.53	    249.78	   1.169	    0.0000	    0.08
+Qout(kW): 	13.93
+
+ExpansionValve
+ PORTS Index  	P(MPa)   	   T(°C) 	  H(kJ/kg) 	S(kJ/kg.K) 	 Quality   	MDOT(kg/s)
+ iPort   1   	    0.9	   35.53	    249.78	   1.169	    0.0000	    0.08
+ oPort   2   	 0.2006	  -10.00	    249.78	   1.190	    0.3063	    0.08
+
+Evaporator
+ PORTS Index  	P(MPa)   	   T(°C) 	  H(kJ/kg) 	S(kJ/kg.K) 	 Quality   	MDOT(kg/s)
+ iPort   2   	 0.2006	  -10.00	    249.78	   1.190	    0.3063	    0.08
+ oPort   3   	 0.2006	  -10.00	    392.66	   1.733	    1.0000	    0.08
+Qin(kW): 	11.43
